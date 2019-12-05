@@ -1,6 +1,6 @@
-function change_css(){
+$(document).ready(function () {
     $("#change_css").click(function () {
-        $("#body").removeClass("color");
-        $("#body").addClass("blackWhite");
+        $("#body").toggleClass("color");
+        $("#body").toggleClass("blackWhite");
     });
-}
+});
