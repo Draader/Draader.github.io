@@ -153,7 +153,7 @@ body{
 }
 .navbar-default{
 	border-color: #262626;
-    background-color: #eaeef3;
+    background-color: #caced4;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	color: #e20613;
@@ -167,7 +167,7 @@ body{
     text-align: center;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #fff;
+	color: #111;
 }
 
 
@@ -365,7 +365,7 @@ body{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 .inner-header .breadcrumb{
 	margin-bottom: 0;
@@ -432,7 +432,7 @@ body{
 }
 
 .panel-heading a:hover {
-  color: #fff;
+  color: #111;
   text-decoration: none;
 }
 .panel-heading a:focus {
@@ -517,7 +517,7 @@ body{
 	padding: 8px;
 }
 .shop-box-hover .c-cell a:hover{
-	color: #fff;
+	color: #111;
 	text-decoration: none;
 }
 .shop-box-title{
@@ -549,7 +549,7 @@ body{
 	color: #eaeef3;
 }
 .pager li>a:focus, .pager li>a:hover{
-	color: #fff;
+	color: #111;
 	border-color: #e20613;
 	background-color: #e20613;
 }
