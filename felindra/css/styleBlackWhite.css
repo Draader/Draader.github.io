@@ -1,0 +1,15 @@
+.blackWhite {
+    background-color: black;
+    background : url(../img/fond1_BW.jpg) no-repeat fixed center;
+    background-size : cover;
+}
+
+.blackWhite a {
+    background-color: black;
+    color: white;
+}
+
+.footerBlackWhite {
+    background-color: black;
+    color: white;
+}

@@ -1,20 +1,3 @@
-.color {
-    background-color: white;
-    background : url(../img/fond1.jpg) no-repeat fixed center;
-    background-size : cover;
-}
-
-.blackWhite {
-    background-color: black;
-    background : url(../img/fond1_BW.jpg) no-repeat fixed center;
-    background-size : cover;
-}
-
-.normal-font {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.other-font {
-  font-family: "Gill Sans Extrabold", sans-serif;
-
+#footer {
+    text-align: center;
 }

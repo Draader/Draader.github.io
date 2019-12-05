@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $("#change_css").click(function () {
-        $("#body").toggleClass("color");
-        $("#body").toggleClass("blackWhite");
+        $("#body").toggleClass("colors blackWhite");
+
+        $("#footer").toggleClass("footerColor footerBlackWhite");
     });
 
     $("#change_font").click(function() {
