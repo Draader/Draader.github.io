@@ -69,7 +69,9 @@ body{
 	border-color: #e20613;
 }
 
-
+.img_radius{
+	border-radius: 20px;
+}
 
 
 /*======================================================================
@@ -365,7 +367,7 @@ body{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .inner-header .breadcrumb{
 	margin-bottom: 0;
