@@ -5,3 +5,12 @@
 .blackWhite {
     background-color: black;
 }
+
+.normal-font {
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.other-font {
+  font-family: "Gill Sans Extrabold", sans-serif;
+
+}
