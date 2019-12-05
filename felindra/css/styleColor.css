@@ -1,0 +1,15 @@
+.colors {
+    background-color: white;
+    background : url(../img/fond1.jpg) no-repeat fixed center;
+    background-size : cover;
+}
+
+.colors a {
+    background-color: orange;
+    color: black;
+}
+
+.footerColor {
+    background-color: orange;
+    color: black;
+}

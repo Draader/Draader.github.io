@@ -8,15 +8,28 @@
     <title>CGI</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleColor.css">
+    <link rel="stylesheet" href="css/styleBlackWhite.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body id="body" class="color">
+<body id="body" class="colors">
 <div class="container">
     <div class="w-80">
-        <button href="./latotale/index.html">Retour vers le site de la nuit de l'info</button>
-        <button id="change_css">Changer CSS</button>
+        <a class="btn bg-primary" href="../latotale/index.html">Retour vers le site de la nuit de l'info</a>
+        <a class="btn bg-primary" id="change_css">Changer Mode</a>
     </div>
+    <div id="footer" class="w-80 footerColor">
+        <p>Page web réalisée dans le cadre de la nuit de l'informatique 2019</p>
+    </div>
+
+    <div class="">
+      <h2>Taille caractères : </h2>
+      <button class="resetMe">Remettre par défaut</button>
+      <button class="increase">Augmenter</button>
+      <button class="decrease">Diminuer</button>
+    </div>
+
 </div>
 </body>
 </html>
