@@ -1,9 +1,13 @@
 .color {
     background-color: white;
+    background : url(../img/fond1.jpg) no-repeat fixed center;
+    background-size : cover;
 }
 
 .blackWhite {
     background-color: black;
+    background : url(../img/fond1_BW.jpg) no-repeat fixed center;
+    background-size : cover;
 }
 
 .normal-font {

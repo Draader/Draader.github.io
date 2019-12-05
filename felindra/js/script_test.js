@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+
+  $("body").css("background","url(img/fond1.jpg) no-repeat fixed center ")
+  $("body").css("background-size","cover");
+
   $("#change_font").click(function() {
 
     var size = $("p").css( "font-size" );
@@ -30,6 +34,9 @@ $( document ).ready(function() {
      $('div').css('font-size', currentSize);
      return false;
    });
+
+
+
 
 
 
