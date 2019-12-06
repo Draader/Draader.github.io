@@ -1,15 +1,33 @@
+.headerBlackWhite {
+    border: white 2px solid;
+}
+
 .blackWhite {
     background-color: black;
     background : url(../img/fond1_BW.jpg) no-repeat fixed center;
     background-size : cover;
 }
 
+.blackWhite p {
+    color: white;
+}
+
 .blackWhite a {
+    border: white 1px solid;
     background-color: black;
     color: white;
 }
 
+.blackWhite a:hover {
+    border: black 1px solid;
+    background-color: gray;
+    color: black;
+}
+
 .footerBlackWhite {
     background-color: black;
+}
+
+.footerBlackWhite p {
     color: white;
 }
