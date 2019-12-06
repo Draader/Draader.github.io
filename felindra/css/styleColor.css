@@ -1,15 +1,33 @@
+.headerColor {
+    border: orange 2px solid;
+}
+
 .colors {
     background-color: white;
     background : url(../img/fond1.jpg) no-repeat fixed center;
     background-size : cover;
 }
 
+.colors p {
+    color: orange;
+}
+
 .colors a {
+    border: black 1px solid;
     background-color: orange;
     color: black;
 }
 
+.colors a:hover {
+    border: orange 1px solid;
+    background-color: gray;
+    color: orange;
+}
+
 .footerColor {
     background-color: orange;
+}
+
+.footerColor p {
     color: black;
 }

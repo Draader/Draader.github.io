@@ -15,7 +15,7 @@
     top: 50%;
     -webkit-animation: linear;
     -webkit-animation-name: run;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 0.5s;
 }
 
 @-webkit-keyframes run {
@@ -30,17 +30,24 @@
     }
 }
 
-/*.container {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
+#header {
+    border-radius: 10px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: #222222;
+    margin-bottom: 25px;
+}
+
+#options {
+    text-align: right;
+}
 
 #footer {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .wrapper {
   perspective: 100px;
 }
@@ -61,3 +68,17 @@
   transition: .3s;
   transform: rotate(0)
 }
+=======
+#parameters {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+>>>>>>> c8a99bee9569e98e48672a766e6700fe268177d4
