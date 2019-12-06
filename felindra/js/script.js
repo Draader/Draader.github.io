@@ -29,6 +29,12 @@ $(document).ready(function () {
     });
 
 
+    $("#fonts").click(function(){
+      //alert($('#fonts option:selected').text());
+      $('*').css('font-family', $('#fonts option:selected'));
+    });
+
+
     var originalSize = $('*').css('font-size');
     var originalSize = parseFloat(originalSize)*1.5;
     $('*').css('font-size', originalSize);
