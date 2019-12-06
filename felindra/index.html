@@ -14,22 +14,58 @@
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body id="body" class="colors">
-<div class="container">
-    <div class="w-80">
+<div id="animation" class="w-80">
+    <img id="img" class="wrapper" src="img/key.png" alt="" width="8%" height="7%">
+</div>
+<div id="content" class="container">
+    <div id="header" class="headerColor">
+        <p>FORT BOYARD</p>
+    </div>
+
+    <div id="options" class="w-80">
         <a class="btn bg-primary" href="../latotale/index.html">Retour vers le site de la nuit de l'info</a>
         <a class="btn bg-primary" id="change_css">Changer Mode</a>
+        <img id="paramImg" src="img/param.png" alt="" width="5%" height="5%">
+        <div id="parameters">
+            <p>Taille caractères : </p>
+            <a class="btn bg-primary resetMe">Remettre par défaut</a>
+            <a class="btn bg-primary increase">Augmenter</a>
+            <a class="btn bg-primary decrease">Diminuer</a>
+
+            <p>Modifier texte : </p>
+            <button id="boldB" class="btn bg-primary">Gras</button>
+            <button id="italicB" class="btn bg-primary">Italic</button>
+
+            <br>
+
+            <select name="test" id="fonts" multiple>
+              <option>Arial</option>
+              <option>Times New Roman</option>
+              <option>Courier New</option>
+              <option>Verdana</option>
+              <option>Georgia</option>
+            </select>
+        </div>
     </div>
-    <div id="footer" class="w-80 footerColor">
-        <p>Page web réalisée dans le cadre de la nuit de l'informatique 2019</p>
+
+    <div id="info">
+      <p>Fort Boyard, intitulé Les Clés de Fort Boyard lors de la première saison, est un jeu télévisé d'origine française, créé en 1990 par Jacques Antoine, Jean-Pierre Mitrecey et Pierre LaunaisNote.
+L'émission française et ses adaptations pour d'autres pays, produites par Adventure Line Productions, sont tournées dans le fort Boyard en Charente-Maritime.
+En France, elle est diffusée depuis le 7 juillet 1990 chaque été sur Antenne 2, puis France 2, et est considérée comme l'une des émissions phares de la période estivale.</p>
     </div>
 
     <div class="">
-      <h2>Taille caractères : </h2>
-      <button class="resetMe">Remettre par défaut</button>
-      <button class="increase">Augmenter</button>
-      <button class="decrease">Diminuer</button>
+
     </div>
 
+    <div class="">
+
+    </div>
+
+
+    <div id="footer" class="w-80 footerColor">
+        <p>Page web réalisée dans le cadre de la nuit de l'informatique 2019</p>
+    </div>
 </div>
 </body>
 </html>

@@ -1,3 +1,98 @@
+#animation {
+    background-color: black;
+    min-height: 100vh;
+    background-image: url(../img/logo.png);
+    background-size: 40% 45%;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#animation img {
+    /*bottom:15%;*/
+    position: absolute;
+    top: 50%;
+    -webkit-animation: linear;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 0.5s;
+}
+
+@-webkit-keyframes run {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 24%;
+    }
+    100% {
+        left: 36%;
+    }
+}
+
+#header {
+    border-radius: 10px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background-color: #222222;
+    margin-bottom: 25px;
+}
+
+#options {
+    text-align: right;
+}
+
 #footer {
     text-align: center;
+}
+
+.wrapper {
+  perspective: 100px;
+}
+
+.rotate {
+  left: 36%;
+  transition-duration: 1s;
+  transform: translate(-0.5%, 0) rotateY(-60deg);
+}
+.nextrotate {
+  left: 36%;
+  transition-duration: 1s;
+  transform: translate(3%, 0) rotateY(-60deg);
+}
+
+#info {
+  background-color: white;
+  opacity: 0.8;
+  padding: 5px;
+  border : 4mm ridge grey;
+  margin: 5px;
+}
+
+.inner {
+  transition: .3s;
+  transform: rotate(0)
+}
+
+#parameters {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+.isBold {
+  font-weight: bold;
+}
+
+.isItalic {
+  font-style: italic;
 }

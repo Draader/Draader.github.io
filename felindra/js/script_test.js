@@ -28,11 +28,28 @@ $( document ).ready(function() {
 
    // Decrease Font Size
    $(".decrease").click(function(){
-     var currentFontSize = $('div').css('font-size');
-     var currentSize = $('div').css('font-size');
+     var currentFontSize = $('*').css('font-size');
+     var currentSize = $('*').css('font-size');
      var currentSize = parseFloat(currentSize)*0.8;
-     $('div').css('font-size', currentSize);
+     $('*').css('font-size', currentSize);
      return false;
+   });
+
+   $('#cley').bind('click', function(){
+     //alert("TEST");
+     $('#cley').toggleClass('test2');
+     //
+
+     setTimeout(
+      function()
+      {
+        $('#cley').toggleClass('test3');
+        $("#B").toggleClass("test-b2");
+      }, 1000);
+
+
+
+
    });
 
 
