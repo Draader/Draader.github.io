@@ -47,7 +47,6 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
 .wrapper {
   perspective: 100px;
 }
@@ -68,7 +67,7 @@
   transition: .3s;
   transform: rotate(0)
 }
-=======
+
 #parameters {
     text-align: left;
     margin-bottom: 25px;
@@ -81,4 +80,12 @@
 .show {
     display: block;
 }
->>>>>>> c8a99bee9569e98e48672a766e6700fe268177d4
+
+
+.isBold {
+  font-weight: bold;
+}
+
+.isItalic {
+  font-style: italic;
+}

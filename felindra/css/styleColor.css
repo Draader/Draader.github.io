@@ -12,13 +12,13 @@
     color: orange;
 }
 
-.colors a {
+.colors a, .colors button {
     border: black 1px solid;
     background-color: orange;
     color: black;
 }
 
-.colors a:hover {
+.colors a:hover, .colors button:hover {
     border: orange 1px solid;
     background-color: gray;
     color: orange;

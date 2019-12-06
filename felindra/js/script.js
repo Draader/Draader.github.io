@@ -32,7 +32,16 @@ $(document).ready(function () {
 
     $("#fonts").click(function(){
       //alert($('#fonts option:selected').text());
-      $('*').css('font-family', $('#fonts option:selected'));
+      var current_font = $('#fonts option:selected').text();
+      $('*').css('font-family', current_font);
+    });
+
+    $("#boldB").click(function(){
+      $('*').toggleClass("isBold");
+    });
+
+    $("#italicB").click(function(){
+      $('*').toggleClass("isItalic");
     });
 
 

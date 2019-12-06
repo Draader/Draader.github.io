@@ -12,13 +12,13 @@
     color: white;
 }
 
-.blackWhite a {
+.blackWhite a, .blackWhite button {
     border: white 1px solid;
     background-color: black;
     color: white;
 }
 
-.blackWhite a:hover {
+.blackWhite a:hover, .blackWhite button:hover {
     border: black 1px solid;
     background-color: gray;
     color: black;
