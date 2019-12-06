@@ -40,3 +40,24 @@
 #footer {
     text-align: center;
 }
+
+.wrapper {
+  perspective: 100px;
+}
+
+.rotate {
+  left: 36%;
+  transition-duration: 1s;
+  transform: translate(-0.5%, 0) rotateY(-60deg);
+}
+.nextrotate {
+  left: 36%;
+  transition-duration: 1s;
+  transform: translate(3%, 0) rotateY(-60deg);
+}
+
+
+.inner {
+  transition: .3s;
+  transform: rotate(0)
+}

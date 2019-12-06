@@ -2,8 +2,20 @@ $(document).ready(function () {
     $("#content").hide();
 
     $('#img').one("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
-        $("#animation").hide();
-        $("#content").show();
+        $("#img").toggleClass("rotate");
+        setTimeout(
+        function()
+        {
+          $("#img").toggleClass("nextrotate");
+          setTimeout(
+          function()
+          {
+            $("#animation").hide();
+            $("#content").show();
+          }, 1000);
+        }, 1000);
+
+
     });
     // $("#animation img").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
     //     function(event) {
