@@ -1,18 +1,19 @@
 $(document).ready(function () {
     $("#content").hide();
+    $("#parameters").addClass("hide");
 
     $('#img').one("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
         $("#animation").hide();
         $("#content").show();
     });
-    // $("#animation img").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
-    //     function(event) {
-    //         alert("aya");
-    //     });
+
+    $("#paramImg").click(function () {
+        $("#parameters").toggleClass("hide show");
+    });
 
     $("#change_css").click(function () {
         $("#body").toggleClass("colors blackWhite");
-
+        $("#header").toggleClass("headerColor headerBlackWhite");
         $("#footer").toggleClass("footerColor footerBlackWhite");
     });
 
