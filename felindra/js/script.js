@@ -1,4 +1,15 @@
 $(document).ready(function () {
+    $("#content").hide();
+
+    $('#img').one("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () {
+        $("#animation").hide();
+        $("#content").show();
+    });
+    // $("#animation img").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+    //     function(event) {
+    //         alert("aya");
+    //     });
+
     $("#change_css").click(function () {
         $("#body").toggleClass("colors blackWhite");
 
@@ -31,5 +42,13 @@ $(document).ready(function () {
        return false;
      });
 
+    // Decrease Font Size
+    $(".decrease").click(function () {
+        var currentFontSize = $('div').css('font-size');
+        var currentSize = $('div').css('font-size');
+        var currentSize = parseFloat(currentSize) * 0.8;
+        $('div').css('font-size', currentSize);
+        return false;
+    });
 
 });
