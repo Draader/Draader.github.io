@@ -44,6 +44,8 @@
 }
 
 #footer {
+    border-radius: 5px;
+    position: relative; bottom: 0; left: 0; right: 0;
     text-align: center;
 }
 
@@ -62,7 +64,7 @@
   transform: translate(3%, 0) rotateY(-60deg);
 }
 
-#info {
+.info {
   background-color: white;
   opacity: 0.8;
   padding: 5px;
