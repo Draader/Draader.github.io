@@ -8,6 +8,10 @@
     background-size : cover;
 }
 
+.blackWhite #info{
+    background-color: white;
+}
+
 .colors p {
     color: orange;
 }

@@ -62,6 +62,13 @@
   transform: translate(3%, 0) rotateY(-60deg);
 }
 
+#info {
+  background-color: white;
+  opacity: 0.8;
+  padding: 5px;
+  border : 4mm ridge grey;
+  margin: 5px;
+}
 
 .inner {
   transition: .3s;

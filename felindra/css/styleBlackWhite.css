@@ -8,6 +8,10 @@
     background-size : cover;
 }
 
+.blackWhite #info{
+    background-color: black;
+}
+
 .blackWhite p {
     color: white;
 }
